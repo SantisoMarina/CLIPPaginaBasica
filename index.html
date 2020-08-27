@@ -6,17 +6,29 @@
     <meta charset="UTF-8">
     <title>Sailor Scouts</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.css" text/css">
+
 
 </head>
 
 <body>
     <header>
-        <div class="topnav">
-            <a class="active" href="index.html">Inicio</a>
-            <a href="sailorInner.html">Sailor Inner Senshi</a>
-            <a href="sailorOuter.html">Sailor Outer Senshi</a>
-
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/icon.png" width="30" height="30" alt="" loading="lazy"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="index.html">Inicio <span class="sr-only">(actual)</span></a>
+                    <a class="nav-link" href="sailorInner.html">Sailor Inner Senshi</a>
+                    <a class="nav-link" href="sailorOuter.html">Sailor Outer Senshi</a>
+                    <a class="nav-link" href="registro.html">Unite!</a>
+                </div>
+            </div>
+        </nav>
         <h1 style="color: #f3736f">Sailor Scouts</h1><br>
     </header>
     <main>
